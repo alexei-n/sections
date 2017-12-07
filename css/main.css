@@ -8,26 +8,27 @@ html {
   box-sizing: inherit;
 }
 
-figure {
-  max-width: 25em;
-}
-
 body {
   background-color: #eee9de
 }
 
-div {
+figure {
+  margin: 0 auto;
+}
+
+section {
   max-width: 25em;
+  margin: 0 auto;
 }
 
 a {
   color: #333;
   text-decoration: none;
   list-style-type: none;
-  background-color: #eee9de
+  background-color: #eee9de;
+  border: 1px solid #000;
   border-radius: 5px;
   padding: .5em;
-  margin: .1em;
 }
 
 a:hover {
