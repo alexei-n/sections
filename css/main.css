@@ -9,16 +9,22 @@ html {
 }
 
 body {
-  background-color: #eee9de
+  background-color: #eee9de;
+}
+
+img {
+  width: 100%;
+  margin: 0, auto;
 }
 
 figure {
-  margin: 0 auto;
+  margin: 0;
 }
 
 section {
   max-width: 25em;
   margin: 0 auto;
+  display: inline-block;
 }
 
 a {
