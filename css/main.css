@@ -32,7 +32,6 @@ figure {
 section {
   max-width: 25em;
   margin: 0 auto;
-
   padding-bottom: 0;
   display: inline-block;
 }
@@ -52,6 +51,12 @@ a {
   vertical-align: middle;
 }
 
+
+
 a:hover {
   background-color: #666;
+}
+
+nav {
+  padding-top: 1em;
 }
