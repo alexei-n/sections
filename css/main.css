@@ -24,9 +24,13 @@ img {
   display: block;
 }
 
+.btn {
+
+}
+
 figure {
   margin: 0;
-  padding: 2em 1em 0;
+  padding: 2em 1em .75em;
 }
 
 section {
