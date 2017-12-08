@@ -24,8 +24,8 @@ img {
   display: block;
 }
 
-.btn {
-
+btn {
+max-width: 5em;
 }
 
 figure {
