@@ -14,7 +14,7 @@ body {
 
 img {
   width: 100%;
-  margin: 0, auto;
+  margin: 0;
 }
 
 figure {
@@ -24,7 +24,9 @@ figure {
 section {
   max-width: 25em;
   margin: 0 auto;
+  padding: 2em;
   display: inline-block;
+
 }
 
 a {
@@ -35,6 +37,7 @@ a {
   border: 1px solid #000;
   border-radius: 5px;
   padding: .5em;
+  vertical-align: middle;
 }
 
 a:hover {
