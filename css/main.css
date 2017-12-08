@@ -20,7 +20,7 @@ div {
 
 img {
   width: 100%;
-  margin: 1.5em 0 0 0;
+  margin: .75em 0 0;
   display: block;
 }
 
@@ -48,7 +48,7 @@ a {
   background-color: #eee9de;
   border: 3px solid #000;
   border-radius: 5px;
-  padding: .5em;
+  padding: .75em;
   vertical-align: middle;
 }
 
