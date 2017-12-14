@@ -20,41 +20,49 @@ div {
 
 img {
   width: 100%;
-  margin: .75em 0 0;
   display: block;
 }
 
 figure {
   margin: 0;
-  padding: 2em 1em .75em;
+  padding: 1em;
+  display: inline-block;
+  max-width: 25em;
+  vertical-align: middle;
 }
 
 section {
-  max-width: 25em;
   margin: 0 auto;
-  padding-bottom: 0;
-  display: inline-block;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 section div {
-  padding: 0 1em;
+  max-width: 25em;
+  padding: 1em;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-a {
+.btn {
   color: #333;
   text-decoration: none;
   list-style-type: none;
   background-color: #eee9de;
   border: 3px solid #000;
   border-radius: 5px;
-  padding: .75em;
-  vertical-align: middle;
+  padding: .4em .75em .5em;
 }
 
-a:hover {
+.btn:hover {
   background-color: #666;
 }
 
 nav {
   padding-top: 1em;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
